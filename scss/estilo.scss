@@ -1,98 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Ruda&family=Six+Caps&display=swap");
+
 header nav {
   background-color: #011627;
   margin-top: 2px;
-  border-bottom: solid 6px #8d0801bd; }
+  border-bottom: solid 6px #8d0801bd;
+}
 
 .navLetras {
   color: white;
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 .nav-link:hover {
   color: #8d0801;
-  transition: all 1.5s; }
+  transition: all 1.5s;
+}
 
 .navLink:focus {
-  color: #8d0801; }
+  color: #8d0801;
+}
 
 /* CARRUSEL */
+
 .carrusel {
   height: 350px;
   object-fit: cover;
   border-radius: 25px;
   border: solid 2px #00000085;
   margin-bottom: 45px;
-  margin-top: 45px; }
+  margin-top: 45px;
+}
 
 /* PRODUGTOS PAG NUESTROS PRODUCTOS */
+
 .producto {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
   margin-bottom: 60px;
-  /* margin: auto; */ }
+
+  /* margin: auto; */
+}
 
 .boton {
-  color: white; }
-  .boton:focus {
+  color: white;
+
+  &:focus {
     color: whitesmoke;
-    background-color: #d90429; }
-  .boton:hover {
     background-color: #d90429;
-    transition: all 1.2s; }
+  }
+
+  &:hover {
+    background-color: #d90429;
+    transition: all 1.2s;
+  }
+}
 
 main {
-  margin: auto; }
+  margin: auto;
+}
 
 /* LOGO Y BARRA BUSCADORA */
+
 .barra {
   height: 40px;
   margin-top: 10px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .imagen {
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
 .search {
   color: white;
   background-color: #011627;
-  margin-left: 10px; }
-  .search:hover {
+  margin-left: 10px;
+
+  &:hover {
     background-color: #8d0801;
     color: whitesmoke;
-    transition: all 0.8s; }
-  .search:focus {
-    background-color: #011627; }
+    transition: all 0.8s;
+  }
+
+  &:focus {
+    background-color: #011627;
+  }
+}
 
 .redes {
-  margin-top: 18px; }
-  .redes a {
+  margin-top: 18px;
+
+  a {
     padding-left: 10px;
     text-decoration: none;
-    color: #011627; }
-    .redes a:hover {
+    color: #011627;
+
+    &:hover {
       color: #8d0801;
-      transition: all 1.5s; }
+      transition: all 1.5s;
+    }
+  }
+}
 
 /* SECTION INFO */
+
 section {
   padding-top: 50px;
-  border-top: #011627 40px solid; }
+  border-top: #011627 40px solid;
+}
 
 .section1 {
   height: 400px;
-  width: 200px; }
+  width: 200px;
+}
 
 .imgSec {
   border-radius: 15px;
-  height: 200px; }
+  height: 200px;
+}
 
 .tarjeta {
   border: #011627bf solid 5px;
   border-radius: 18px;
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 /* FOOTER */
+
 footer {
   border-top: 6px solid #011627;
   background-color: #8d0801;
@@ -100,112 +135,157 @@ footer {
   padding: 25px;
   margin-top: 40px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .redesF {
-  font-family: "Ruda", sans-serif; }
-  .redesF a {
+  font-family: "Ruda", sans-serif;
+
+  a {
     padding-left: 10px;
     text-decoration: none;
-    color: whitesmoke; }
-    .redesF a:hover {
+    color: whitesmoke;
+
+    &:hover {
       color: #011627;
-      transition: all 0.7s; }
+      transition: all 0.7s;
+    }
+  }
+}
 
 /* NUESTOR PRODUCTOS SECCION */
+
 .producto {
   display: grid;
-  grid-template-areas: "izquierda izquierda1 izquierda2" "izquierda izquierda1 izquierda2" "derecha1 derecha2 derecha3" "derecha1 derecha2 derecha3"; }
+  grid-template-areas: "izquierda izquierda1 izquierda2" "izquierda izquierda1 izquierda2" "derecha1 derecha2 derecha3" "derecha1 derecha2 derecha3";
+}
 
 .secA1 {
-  grid-area: izquierda; }
+  grid-area: izquierda;
+}
 
 .secA2 {
-  grid-area: izquierda1; }
+  grid-area: izquierda1;
+}
 
 .secA3 {
-  grid-area: izquierda2; }
+  grid-area: izquierda2;
+}
 
 .secB1 {
-  grid-area: derecha1; }
+  grid-area: derecha1;
+}
 
 .secB2 {
-  grid-area: derecha2; }
+  grid-area: derecha2;
+}
 
 .secB3 {
-  grid-area: derecha3; }
+  grid-area: derecha3;
+}
 
 .aside1 {
   height: 370px;
-  width: 900px; }
+  width: 900px;
+}
 
 .texto {
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 /* NUESTRO TRABAJO */
+
 .nuestrot {
   height: 500px;
   width: 500px;
-  margin-left: 32%; }
+  margin-left: 32%;
+}
 
 .ntimg {
-  height: 350px; }
+  height: 350px;
+}
 
 /* contactanos */
+
 .cotiza {
   font-family: "Ruda", sans-serif;
   text-align: center;
   margin-top: 25px;
-  color: #011627; }
+  color: #011627;
+}
 
 .marcaVehiculo {
   margin-top: 50px;
   width: 250px;
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 .formulario {
   margin-top: 50px;
+
   /* problemas */
   /* margin-left:;
   width:; */
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 .nombreapellido {
-  width: 400px; }
+  width: 400px;
+}
 
 .formulario2 {
   margin-left: 260px;
-  font-family: "Ruda", sans-serif; }
+  font-family: "Ruda", sans-serif;
+}
 
 .correoE {
-  width: 800px; }
+  width: 800px;
+}
 
 @media (max-width: 723px) {
   .imagen, .imgaside {
-    display: none; }
+    display: none;
+  }
+
   .producto, .nuestroTrabajo {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
+
   .ntimg {
     /* height: auto;
-    width: auto; */ }
+    width: auto; */
+  }
+
   .nuestrot {
-    margin-right: 150px; }
+    margin-right: 150px;
+  }
+
   .formulario {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
+
   .formulario2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto; }
+    margin: auto;
+  }
+
   .nombreapellido, .correoE {
-    width: 250px; }
+    width: 250px;
+  }
+
   .marca {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
+
   .barra {
-    width: 240px; } }
+    width: 240px;
+  }
+}
