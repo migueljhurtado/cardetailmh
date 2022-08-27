@@ -25,11 +25,13 @@ header nav {
   margin-top: 45px;
 }
 /* PRODUGTOS PAG NUESTROS PRODUCTOS */
+
 .producto {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
   margin-bottom: 60px;
+  /* margin: auto; */
 }
 .boton {
   color: white;
@@ -42,6 +44,9 @@ header nav {
 .boton:hover {
   background-color: #d90429;
   transition: all 1.2s;
+}
+main{
+  margin: auto  ;
 }
 /* LOGO Y BARRA BUSCADORA */
 .barra {
@@ -219,6 +224,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+  }
+  .ntimg{
+    /* height: auto;
+    width: auto; */
+
   }
   .nuestrot{
     margin-right: 150px;
