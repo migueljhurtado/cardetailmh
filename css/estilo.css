@@ -208,4 +208,10 @@ footer {
     flex-direction: column;
     align-items: center; }
   .barra {
-    width: 240px; } }
+    width: 240px; }
+    section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } }
+    

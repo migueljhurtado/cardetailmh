@@ -288,4 +288,9 @@ footer {
   .barra {
     width: 240px;
   }
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
