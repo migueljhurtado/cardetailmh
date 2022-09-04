@@ -136,8 +136,8 @@ footer {
   grid-area: derecha3; }
 
 .aside1 {
-  height: 370px;
-  width: 900px; }
+  height: 400px;
+  width: 600px; }
 
 .texto {
   font-family: "Ruda", sans-serif; }
@@ -186,12 +186,10 @@ footer {
   .producto, .nuestroTrabajo {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-  .ntimg {
-    /* height: auto;
-    width: auto; */ }
+    align-items: center;
+    width: 200px; }
   .nuestrot {
-    margin-right: 150px; }
+    width: 400px; }
   .formulario {
     display: flex;
     flex-direction: column;
@@ -209,9 +207,7 @@ footer {
     align-items: center; }
   .barra {
     width: 240px; }
-    section{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    } }
-    
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
