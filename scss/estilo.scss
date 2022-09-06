@@ -157,7 +157,7 @@ footer {
 
 .producto {
   display: grid;
-  grid-template-areas: "izquierda izquierda1 izquierda2" "izquierda izquierda1 izquierda2" "derecha1 derecha2 derecha3" "derecha1 derecha2 derecha3";
+  grid-template-areas: "izquierda izquierda1 izquierda2" "izquierda izquierda1 izquierda2" "derecha1 derecha2 derecha3" "derecha1 derecha2 derecha3" "catalogo catalogo catalogo";
 }
 
 .secA1 {
@@ -187,6 +187,9 @@ footer {
 .aside1 {
   height: 400px;
   width: 600px;
+}
+.catalogo{
+  grid-area: catalogo;
 }
 
 .texto {
@@ -222,10 +225,9 @@ footer {
 
 .formulario {
   margin-top: 50px;
-
-  /* problemas */
-  /* margin-left:;
-  width:; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   font-family: "Ruda", sans-serif;
 }
 
@@ -233,29 +235,25 @@ footer {
   width: 400px;
 }
 
-.formulario2 {
-  margin-left: 260px;
-  font-family: "Ruda", sans-serif;
-}
-
-.correoE {
-  width: 800px;
-}
-
-@media (max-width: 723px) {
+@media (max-width: 850px) {
   .imagen, .imgaside {
     display: none;
   }
 
   .producto, .nuestroTrabajo {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
-    margin-right: 100px;
+    text-align: center;
+    padding: 2 2 2 2;
   }
+  
   .nuestrot {
-    width: 300px;
-    height: 450px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
   }
 
   .formulario {
@@ -271,7 +269,7 @@ footer {
     margin: auto;
   }
 
-  .nombreapellido, .correoE {
+  .nombreapellido {
     width: 250px;
   }
 
