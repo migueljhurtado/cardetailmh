@@ -1,0 +1,6 @@
+$mapRedes: (redes:$color-principal);
+@each $red, $color in $mapRedes{
+    .#{$red} {
+        color: $color-principal;
+    }
+}

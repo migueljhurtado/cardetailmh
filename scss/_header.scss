@@ -1,0 +1,36 @@
+header{
+    nav {
+      background-color: $color-principal;
+      margin-top: 2px;
+      border-bottom: solid 6px $color-secundario;
+      
+    }
+    .navLetras {
+      color: white;
+      font-family: "Ruda", sans-serif;
+    }
+    .nav-link:hover {
+      color: $color-secundario;
+      transition: all 1.5s;
+    }
+    .navLink:focus {
+      color: $color-secundario;
+    }
+    .cotiza {
+      font-family: 'Racing Sans One', cursive;
+      text-align: center;
+      margin-top: 25px;
+      color: $color-principal;
+     
+      
+      &:hover{
+         color: $color-secundario;
+         transition: 0.8s;
+  
+      } 
+    }
+  
+  }
+   
+  
+  

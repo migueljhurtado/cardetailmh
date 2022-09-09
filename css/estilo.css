@@ -1,19 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Ruda&family=Six+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Racing+Sans+One & display=swap");
 header nav {
   background-color: #011627;
   margin-top: 2px;
-  border-bottom: solid 6px #8d0801bd; }
+  border-bottom: solid 6px #8d0801; }
 
-.navLetras {
+header .navLetras {
   color: white;
   font-family: "Ruda", sans-serif; }
 
-.nav-link:hover {
+header .nav-link:hover {
   color: #8d0801;
   transition: all 1.5s; }
 
-.navLink:focus {
+header .navLink:focus {
   color: #8d0801; }
+
+header .cotiza {
+  font-family: 'Racing Sans One', cursive;
+  text-align: center;
+  margin-top: 25px;
+  color: #011627; }
+  header .cotiza:hover {
+    color: #8d0801;
+    transition: 0.8s; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 20px; }
+
+.redes {
+  color: #011627; }
 
 /* CARRUSEL */
 .carrusel {
@@ -36,9 +61,9 @@ header nav {
   color: white; }
   .boton:focus {
     color: whitesmoke;
-    background-color: #d90429; }
+    background-color: #8d0801; }
   .boton:hover {
-    background-color: #d90429;
+    background-color: #8d0801;
     transition: all 1.2s; }
 
 main {
@@ -88,7 +113,7 @@ section {
   height: 200px; }
 
 .tarjeta {
-  border: #011627bf solid 5px;
+  border: #011627 solid 5px;
   border-radius: 18px;
   font-family: "Ruda", sans-serif; }
 
@@ -101,16 +126,15 @@ footer {
   margin-top: 40px;
   display: flex;
   justify-content: space-around; }
-
-.redesF {
-  font-family: "Ruda", sans-serif; }
-  .redesF a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: whitesmoke; }
-    .redesF a:hover {
-      color: #011627;
-      transition: all 0.7s; }
+  footer .redesF {
+    font-family: "Ruda", sans-serif; }
+    footer .redesF a {
+      padding-left: 10px;
+      text-decoration: none;
+      color: whitesmoke; }
+      footer .redesF a:hover {
+        color: #011627;
+        transition: all 0.7s; }
 
 /* NUESTOR PRODUCTOS SECCION */
 .producto {
@@ -155,12 +179,6 @@ footer {
   height: 350px; }
 
 /* contactanos */
-.cotiza {
-  font-family: "Ruda", sans-serif;
-  text-align: center;
-  margin-top: 25px;
-  color: #011627; }
-
 .marcaVehiculo {
   margin-top: 50px;
   width: 250px;

@@ -1,24 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Ruda&family=Six+Caps&display=swap");
-
-header nav {
-  background-color: #011627;
-  margin-top: 2px;
-  border-bottom: solid 6px #8d0801bd;
-}
-
-.navLetras {
-  color: white;
-  font-family: "Ruda", sans-serif;
-}
-
-.nav-link:hover {
-  color: #8d0801;
-  transition: all 1.5s;
-}
-
-.navLink:focus {
-  color: #8d0801;
-}
+@import url("https://fonts.googleapis.com/css2? family= Racing+Sans+One & display=swap");
+@import "variables";
+@import "header";
+@import "bucles";
+@import "maps";
 
 /* CARRUSEL */
 
@@ -47,11 +32,11 @@ header nav {
 
   &:focus {
     color: whitesmoke;
-    background-color: #d90429;
+    background-color: $color-secundario;
   }
 
   &:hover {
-    background-color: #d90429;
+    background-color: $color-secundario;
     transition: all 1.2s;
   }
 }
@@ -74,17 +59,17 @@ main {
 
 .search {
   color: white;
-  background-color: #011627;
+  background-color: $color-principal;
   margin-left: 10px;
 
   &:hover {
-    background-color: #8d0801;
+    background-color: $color-secundario;
     color: whitesmoke;
     transition: all 0.8s;
   }
 
   &:focus {
-    background-color: #011627;
+    background-color: $color-principal;
   }
 }
 
@@ -94,10 +79,10 @@ main {
   a {
     padding-left: 10px;
     text-decoration: none;
-    color: #011627;
+    color: $color-principal;
 
     &:hover {
-      color: #8d0801;
+      color: $color-secundario;
       transition: all 1.5s;
     }
   }
@@ -107,7 +92,7 @@ main {
 
 section {
   padding-top: 50px;
-  border-top: #011627 40px solid;
+  border-top: $color-principal 40px solid;
 }
 
 .section1 {
@@ -121,7 +106,7 @@ section {
 }
 
 .tarjeta {
-  border: #011627bf solid 5px;
+  border: $color-principal solid 5px;
   border-radius: 18px;
   font-family: "Ruda", sans-serif;
 }
@@ -129,26 +114,25 @@ section {
 /* FOOTER */
 
 footer {
-  border-top: 6px solid #011627;
-  background-color: #8d0801;
+  border-top: 6px solid $color-principal;
+  background-color: $color-secundario;
   color: whitesmoke;
   padding: 25px;
   margin-top: 40px;
   display: flex;
   justify-content: space-around;
-}
+  .redesF {
+    font-family: "Ruda", sans-serif;
 
-.redesF {
-  font-family: "Ruda", sans-serif;
+    a {
+      padding-left: 10px;
+      text-decoration: none;
+      color: whitesmoke;
 
-  a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: whitesmoke;
-
-    &:hover {
-      color: #011627;
-      transition: all 0.7s;
+      &:hover {
+        color: $color-principal;
+        transition: all 0.7s;
+      }
     }
   }
 }
@@ -209,13 +193,6 @@ footer {
 }
 
 /* contactanos */
-
-.cotiza {
-  font-family: "Ruda", sans-serif;
-  text-align: center;
-  margin-top: 25px;
-  color: #011627;
-}
 
 .marcaVehiculo {
   margin-top: 50px;

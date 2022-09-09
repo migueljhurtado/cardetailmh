@@ -1,0 +1,4 @@
+1 Se realiza variable para aplicar colores.
+2 Bucle para aplicar mismo tamaño de fuente a todos los H excepto el h1 
+3 Se aplica parcial del header
+4 Maps para dar color a clase Redes
