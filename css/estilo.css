@@ -177,9 +177,11 @@ footer {
   width: 400px; }
 
 @media (max-width: 850px) {
-  .imagen, .imgaside {
+  .imagen,
+  .imgaside {
     display: none; }
-  .producto, .nuestroTrabajo {
+  .producto,
+  .nuestroTrabajo {
     display: flex;
     flex-direction: column;
     justify-content: center;

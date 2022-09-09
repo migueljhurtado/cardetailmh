@@ -4,8 +4,6 @@ header nav {
   background-color: #011627;
   margin-top: 2px;
   border-bottom: solid 6px #8d0801bd;
-  
-  
 }
 
 .navLetras {
@@ -190,7 +188,7 @@ footer {
   height: 400px;
   width: 600px;
 }
-.catalogo{
+.catalogo {
   grid-area: catalogo;
 }
 
@@ -238,24 +236,25 @@ footer {
 }
 
 @media (max-width: 850px) {
-  .imagen, .imgaside {
+  .imagen,
+  .imgaside {
     display: none;
   }
 
-  .producto, .nuestroTrabajo {
+  .producto,
+  .nuestroTrabajo {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 2 2 2 2;
   }
-  
+
   .nuestrot {
     width: auto;
     height: auto;
     margin: auto;
-    
   }
 
   .formulario {
@@ -284,7 +283,7 @@ footer {
   .barra {
     width: 240px;
   }
-  section{
+  section {
     display: flex;
     flex-direction: column;
     align-items: center;
